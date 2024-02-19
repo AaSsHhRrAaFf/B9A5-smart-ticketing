@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto">
+    <header>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <a class="btn btn-ghost font-raleway text-4xl font-bold">P-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button class="btn bg-[#1DD1001A] font-raleway text-xl font-semibold text-[#1DD100] rounded-lg border-[#1DD100]">
+              Bus<span><img src="./images/bus-icon.png" alt="bus-logo" /></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-5"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 font-raleway text-5xl font-bold">End-to-End Travel with<br><span class="text-[#1DD100]">P Paribahan</span></h1>
+            <p class="mb-5">Travel smarter with P Paribahan. Convenient booking, comfortable rides, and reliable service - all at your fingertips. </p>
+            <button class="btn bg-[#1DD100] border-[#1DD100] rounded-xl font-raleway font-semibold text-xl">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="font-raleway text-4xl font-bold text-center m-10">Best offers for you</h2>
+        <div class="flex justify-around mx-auto">
+            <div class="w-[30rem] h-40 bg-[#FFBF0F] text-white rounded-lg flex justify-evenly items-center">
+                <diV>
+                    <P class="font-raleway text-3xl font-bold text-black">15% OFF</P>
+                    <p class="text-gray-800">on your next purchase</p>
+                    <p class="text-gray-400">use by January 2024</p>
+                </diV>           
+                <diV>
+                    <img class="h-40" src="./images/cupon-devider.png" alt="#">
+                </diV>           
+                <diV>
+                    <p class="font-raleway text-3xl font-bold text-black">NEW15</p>
+                    <p class="text-gray-400">Coupon Code</p>
+                </diV>           
+              </div>
+              <div class="w-[30rem] h-40 bg-[#F78C9C] text-white rounded-lg flex justify-evenly items-center">
+                <diV>
+                    <P class="font-raleway text-3xl font-bold text-black">20% OFF</P>
+                    <p class="text-gray-800">on your next purchase</p>
+                    <p class="text-gray-400">use by January 2024</p>
+                </diV>           
+                <diV>
+                    <img class="h-40" src="./images/cupon-devider.png" alt="#">
+                </diV>           
+                <diV>
+                    <p class="font-raleway text-3xl font-bold text-black">Couple 20</p>
+                    <p class="text-gray-400">Coupon Code</p>
+                </diV>           
+              </div>
+        </div>
+        <div class="flex justify-center m-5">
+            <button class="btn btn-outline text-[#1DD100]">See All Offers</button>
+        </div>
+        
+     </section>
+      <!----------- PH Paribahan -->
+      <section class="w-full h-[125rem] bg-[#F7F8F8] rounded-t-3xl border-[#1DD100]">
+        <h2 class="text-center p-10 font-raleway text-3xl font-bold">P.H Paribahan</h2>
+        <p></p>
+        <div
+          class="w-[73rem] h-[26rem] m-auto bg-[#FFFFFF] flex justify-between rounded-3xl"
+        >
+          <div class="">
+            <div class="flex justify-between">
+              <div class="flex justify-center items-center gap-2 py-5 px-5">
+                <img class="w-16 h-12" src="./images/bus-logo.png" alt="#" />
+                <div>
+                  <h3 class="font-bold text-3xl">Greenline Paribahan</h3>
+                  <p>Coach-009-WEB ! AC_Business</p>
+                </div>
+              </div>
+              <div class="text-[#1DD100] text-lg font-semibold py-5 px-5">
+                <button
+                  class="w-40 h-14 flex items-center justify-center bg-[#1DD10026] rounded-2xl"
+                >
+                  <img src="./images/seat-green.png" alt="#" /><span
+                    class="text-2xl font-bold"
+                    id="left-seat"
+                    >40</span
+                  >Seats Left
+                </button>
+              </div>
+            </div>
+            <div
+              class="text-[#030712CC] bg-[#F7F8F8] ml-5 mt-5 p-5 rounded-2xl"
+            >
+              <div class="flex justify-between text-balance font-normal mb-4">
+                <p>Route</p>
+                <p>Dhaka-Sylhet</p>
+              </div>
+              <hr />
+              <div class="flex justify-between mb-4 mt-4">
+                <p>Departure Time</p>
+                <p>9.00 PM</p>
+              </div>
+              <hr />
+              <div class="flex justify-around gap-4 mb-4 mt-14">
+                <button class="btn btn-outline bg-[#0307120D]">
+                  Boarding Point-Laxmipur
+                </button>
+                <button class="btn btn-outline bg-[#0307120D]">
+                  Dropping Point - Bogura
+                </button>
+                <button class="btn btn-outline bg-[#0307120D]">
+                  Est Time - 11 Hour
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./images/info-devider.png" alt="#" />
+          </div>
+          <div class="mt-36 px-28">
+            <img src="./images/fare.png" alt="#" />
+            <p class="text-4xl font-bold">550 TAka</p>
+            <p>Per Seat</p>
+          </div>
+        </div>
+
+        <div class="flex justify-around">
+          <div
+            class="bg-[#FFFFFF] mt-10 mx-10 px-5 w-[40rem] h-[70rem] rounded-3xl"
+          >
+            <h3 class="text-2xl font-semibold pt-5 pb-2">Select Your Seat</h3>
+            <hr />
+            <di class="flex justify-between m-5">
+              <div class="flex items-center">
+                <img src="./images/seat-gray.png" alt="#" />
+                <p class="text-xl font-semibold">Available</p>
+              </div>
+              <div class="flex items-center">
+                <img src="./images/seat-green-filled.png" alt="#" />
+                <p class="text-[#1DD100] text-xl font-semibold">Selected</p>
+              </div>
+            </di>
+            <hr />
+            <div class="flex justify-end">
+                <button class="btn w-28 h-14 m-5 px-10 bg-[#F7F8F8] rounded-3xl]">
+                    <img src="./images/Vector.png" alt="#" />
+                </button>
+            </div>
+            <div class="grid grid-cols-4 gap-7">
+              <button
+                id="sit"
+                class="btn card boy w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-2xl]"
+                
+              >
+                A1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                A2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                A3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                A4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                B1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                B2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                B3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                B4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                C1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                C2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                C3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                C4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                D1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                D2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                D3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                D4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                E1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                E2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                E3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                E3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                E4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                F1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                F2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                F3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                F4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                G1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                G2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                G3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                G4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                H1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                H2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                H3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                H4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                I1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                I2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                I3
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                I4
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                J1
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                J2
+              </button>
+              <button
+                id="sit"
+                class="btn card w-28 h-14 bg-[#F7F8F8] text-[#03071280 text-2xl font-bold rounded-3xl]"
+              >
+                J3
+              </button>
+            </div>
+          </div>
+          <div>
+            <img class="h-[35rem]" src="./images/info-devider.png" alt="#" />
+          </div>
+          <div>
+            <h3 class="text-2xl font-semibold pt-5 pb-2">Select Your Seat</h3>
+            <hr />
+            <div class="bg-lime-300 w-96 h-80">
+              <div class="">
+                <div class="flex justify-between pt-4 px-4">
+                  <p>
+                    Seat<sup
+                      class="bg-[#1DD100] text-white w-6 h-2"
+                      id="sit-count"
+                      >0</sup
+                    >
+                  </p>
+                  <p>Class</p>
+                  <p>Price</p>
+                </div>
+                <hr />
+                <div id="title-container"></div>
+                <hr />
+                <div class="flex justify-between pt-4 px-4">
+                  <p>Total Price</p>
+                  <p>BDT<span id="totalPrice">0</span></p>
+                </div>
+                <div class="">
+                  <!-- <input type="text" class="input-field" placeholder="Have any coupon?">
+                            <button class="bg-[#1DD100] text-white">Apply</button> -->
+                  <div class="m-4 flex couponInput">
+                    <input
+                      id="input-field"
+                      class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+                      placeholder="Have any coupon?"
+                    />
+                    <button
+                      id="apply-btn"
+                      class="px-8 rounded-r-lg bg-[#1DD100] text-gray-800 font-bold p-4 uppercase"
+                    >
+                      Apply
+                    </button>
+                  </div>
+                </div>
+                <div class="flex justify-between pt-4 px-4">
+                  <p>Grand Total</p>
+                  <p>BDT<span id="grand-price">0</span></p>
+                </div>
+                <form
+                  class="w-full max-w-sm mx-auto bg-white p-8 rounded-md shadow-md"
+                >
+                  <div class="mb-4">
+                    <label
+                      class="block text-gray-700 text-sm font-bold mb-2"
+                      for="name"
+                      >Passenger Name*</label
+                    >
+                    <input
+                      class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label
+                      class="block text-gray-700 text-sm font-bold mb-2"
+                      for="email"
+                      >Phone Number*</label
+                    >
+                    <input
+                      class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                      type="text"
+                      id="number"
+                      name="number"
+                      placeholder="Enter your number"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label
+                      class="block text-gray-700 text-sm font-bold mb-2"
+                      for="password"
+                      >Email ID</label
+                    >
+                    <input
+                      class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+
+                  <button id="nextButton" class="btn bg-[#1DD100] text-white py-2 px-4 w-full" onclick="my_modal_1.showModal()">
+                    NEXT
+                  </button>
+                  <dialog id="my_modal_1" class="modal">
+                    <div class="modal-box">
+                      <div class="flex flex-col items-center">
+                        <img src="./images/success.png" alt="#">
+                        <p class="text-[#1DD100] mt-2">success</p>
+                      </div>
+                      <p class="py-4">
+                        Thank you for Booking Our Bus Seats. We are working hard
+                        to find the best service and deals for you. Shortly you
+                        will find a confirmation in your email.
+                      </p>
+                      <div class="modal-action flex justify-center">  
+                          <button class="btn bg-[#1DD100] text-white">Continue</button>
+                      </div>
+                    </div>
+                  </dialog>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 px-8 max-w-7xl h-[20rem] mx-auto">
+        
+          
+        <div class="flex justify-between mt-10">
+            <div>
+                <p>P-Ticket</p>
+                <p>P-Ticket is a digital platform to make your daily commuting better.</p>
+            </div>
+            <div class="">
+                <p class="text-white hover:text-blue-700">Download our app</p>
+                <div class="flex justify-center mt-4 mb-6">
+                    <img class="" src="./images/playstore.png" alt="Get it on Google Play">
+                </div>
+                
+            </div>
+        </div>
+
+        <hr class="my-6 border-gray-200 md:my-8 dark:border-gray-700">
+
+        <div class="flex justify-between">
+            
+            <div>
+                <p>@all rights reserved, P-Ticket services limited.2024</p>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-gray-400">Terms & Condition</a>
+                <a href="#" class="hover:text-gray-400">Return & Refund Policy</a>
+                <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+            </div>
+
+        </div>
+      </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
